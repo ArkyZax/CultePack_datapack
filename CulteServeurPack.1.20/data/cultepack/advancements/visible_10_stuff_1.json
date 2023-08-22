@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"title": "§2Démoniaque ..?",
+		"description": "§aCraft un bout d'armure démoniaque",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_1_entrer",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{Tags:[cultestuff]}"
+					}
+				]
+			}
+		}
+	}
+}

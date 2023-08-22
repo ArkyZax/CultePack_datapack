@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:13}"
+		},
+		"title": "§4Zombie Mutant",
+		"description": "§cTuer le Zombie Mutant",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_11_boos_3",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[zombie_mutant]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:chapeaux/boss_4"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:petit_village",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1146864596,
+		
+		"spacing": 13,
+		"separation": 10
+	}
+}

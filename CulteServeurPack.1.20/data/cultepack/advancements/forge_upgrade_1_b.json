@@ -1,0 +1,53 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:player",
+							"type_specific": {
+								"type": "player"
+							},
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:phantom_membrane"
+									]
+								}
+							}
+						}
+					}
+				],
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:netherite_boots"
+							],
+							"nbt": "{Tags:[cultestuff]}"
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"structure": "cultepack:end_forge",
+							"block": {
+								"blocks": [
+									"minecraft:smithing_table"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:armors/upgradestuff_1_b"
+	}
+}

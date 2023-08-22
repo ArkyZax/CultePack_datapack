@@ -1,0 +1,24 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "minecraft:player",
+		"type_specific": {
+			"type": "player"
+		},
+		"equipment": {
+			"chest": {
+				"nbt": "{Tags:[\"upgraded_1\"]}"
+			},
+			"head": {
+				"nbt": "{Tags:[\"upgraded_1\"]}"
+			},
+			"legs": {
+				"nbt": "{Tags:[\"upgraded_1\"]}"
+			},
+			"feet": {
+				"nbt": "{Tags:[\"upgraded_1\"]}"
+			}
+		}
+	}
+}

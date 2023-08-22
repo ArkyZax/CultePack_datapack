@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"player": {},
+				"recipe": "cultepack:stickcarrotdiamond"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:weapons/givestickdiamond"
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:6660102,AttributeModifiers:[{AttributeName:generic.attack_damage,Amount:16,Slot:mainhand,Name:generic.attack_damage,UUID:[I;-123215,14937,143012,-29874]},{AttributeName:generic.attack_speed,Amount:3.6,Slot:mainhand,Name:generic.attack_speed,UUID:[I;-123215,15037,143012,-30074]}],display:{Name:'[{\"text\":\"Épée Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Épée surpuissante,\",\"italic\":false}]','[{\"text\":\"forgée depuis l\\'End\",\"italic\":false}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:11,display:{Name:'[{\"text\":\"Tête du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Roi Zombie\",\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Tête de Boss. Peut être\",\"italic\":false}]','[{\"text\":\"utilisée comme chapeau.\",\"italic\":false}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:netherite_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 5
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:nether_star"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:phantom_membrane",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77702,Tags:[\"upgrader_1\"],display:{Name:'[{\"text\":\"Rune d\\'Armure\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"l\\'armure Démoniaque.\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Donne à la pièce d\\'armure :\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"-Protection X\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"-Unbrealing X\",\"italic\":true,\"color\":\"gray\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

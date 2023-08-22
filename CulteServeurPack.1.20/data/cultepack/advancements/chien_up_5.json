@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"armorelytra": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cultepack:chien_up_5"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:chiens/craft_5"
+	}
+}

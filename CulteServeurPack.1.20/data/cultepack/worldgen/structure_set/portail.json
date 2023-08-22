@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:portail",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 686280138,
+		"spacing": 40,
+		"separation": 30
+	}
+}

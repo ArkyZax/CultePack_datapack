@@ -1,0 +1,21 @@
+{
+	
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{Tags:[pierre_invoc_2]}"
+                        
+					}
+				]
+			}
+		}
+	},
+
+"rewards": {
+    "function": "cultepack:events/advc_invoc_give"
+}
+}
+    

@@ -1,0 +1,74 @@
+{
+	"feature": "cultepack:bedrock",
+	"placement": [
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:any_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_fluids",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"fluids": [
+							"minecraft:empty",
+							"minecraft:flowing_lava",
+							"minecraft:flowing_water",
+							"minecraft:lava",
+							"minecraft:water"
+						]
+					},
+					{
+						"type": "minecraft:inside_world_bounds",
+						"offset": [
+							0,
+							0,
+							0
+						]
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"state": {
+							"Name": "minecraft:bedrock"
+						}
+					},
+					{
+						"type": "minecraft:has_sturdy_face",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"direction": "up"
+					},
+					{
+						"type": "minecraft:replaceable"
+					},
+					{
+						"type": "minecraft:solid"
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": "minecraft:water"
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

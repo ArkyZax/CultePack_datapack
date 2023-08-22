@@ -1,0 +1,121 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"shield_night\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[VISION]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de vision nocturne\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:gilded_blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:enchanted_golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:netherite_scrap",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77701,Tags:[\"pierre_invoc_1\"],display:{Name:'[{\"text\":\"Pierre d\\'Invocation ★\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Contient une âme\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77701,Tags:[\"pierre_invoc_2\"],display:{Name:'[{\"text\":\"Pierre d\\'Invocation ★★\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Contient une âme\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

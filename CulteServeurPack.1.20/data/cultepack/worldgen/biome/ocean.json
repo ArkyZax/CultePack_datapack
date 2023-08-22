@@ -1,0 +1,39 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.2,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 14745855,
+		"fog_color": 5181439,
+		"water_color": 247005,
+		"water_fog_color": 2326779,
+		"grass_color": 53556,
+		"foliage_color": 418048
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:drowned",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"water_creature": [
+			
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 2,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+        ["minecraft:iceberg_blue",
+        "minecraft:iceberg_packed"
+        ]
+        ]
+}

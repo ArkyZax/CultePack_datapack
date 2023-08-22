@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane",
+			"nbt": "{CustomModelData:77702}"
+		},
+		"title": "§2Une amélioration ..?",
+		"description": "§aPermet d'améliorer l'armure Démoniaque à une Forge",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_10_invoc",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{Tags:[upgrader_1]}"
+					}
+				]
+			}
+		}
+	}
+}

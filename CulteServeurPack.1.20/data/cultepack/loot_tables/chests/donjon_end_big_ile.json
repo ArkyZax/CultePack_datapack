@@ -1,0 +1,154 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 23
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:emerald_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 9,
+								"max": 23
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:blaze_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 30,
+								"max": 63
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 45
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:phantom_membrane",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77702,Tags:[\"upgrader_1\"],display:{Name:'[{\"text\":\"Rune d\\'Armure\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"l\\'armure Démoniaque.\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Donne à la pièce d\\'armure :\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"-Protection X\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"-Unbrealing X\",\"italic\":true,\"color\":\"gray\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77705,Tags:[cristal_tp],display:{Name:'[{\"text\":\"Cristal de Téléportation\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77701,Tags:[\"pierre_invoc_3\"],display:{Name:'[{\"text\":\"Pierre d\\'Invocation ★★★\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Contient une âme\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77701,Tags:[\"pierre_invoc_4\"],display:{Name:'[{\"text\":\"Pierre d\\'Invocation ★★★★\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Contient une âme\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

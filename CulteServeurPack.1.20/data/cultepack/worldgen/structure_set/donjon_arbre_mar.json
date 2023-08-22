@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_arbre_mar",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 593859267,
+		
+		"spacing": 13,
+		"separation": 10
+	}
+}

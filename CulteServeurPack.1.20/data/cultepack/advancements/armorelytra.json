@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"armorelytra": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cultepack:armoredelytra"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:armors/elytra"
+	}
+}

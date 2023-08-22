@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:end_caverne_1",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1704926099,
+		
+		"spacing": 13,
+		"separation": 6
+	}
+}

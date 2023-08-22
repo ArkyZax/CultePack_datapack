@@ -1,0 +1,1 @@
+give @s minecraft:carved_pumpkin{CustomModelData:2,display:{Name:'[{"text":"Adventure Time !","italic":false,"color":"light_purple"}]',Lore:['[{"text":"Cadeau pour avoir","italic":true,"color":"aqua"}]','[{"text":"visité la dimension !","italic":true,"color":"aqua"}]']}} 1

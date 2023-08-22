@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GEG",
+		"ESE",
+		"GEG"
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:gold_block"
+		},
+		"E": {
+			"item": "minecraft:end_crystal"
+		},
+		"S": {
+			"item": "minecraft:saddle"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

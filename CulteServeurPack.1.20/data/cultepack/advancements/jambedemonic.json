@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"plastondemonic": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cultepack:demonicjambe"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:armors/adddemonicjambe"
+	}
+}

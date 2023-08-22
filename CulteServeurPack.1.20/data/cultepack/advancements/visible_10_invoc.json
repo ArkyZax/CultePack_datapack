@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:popped_chorus_fruit",
+			"nbt": "{CustomModelData:77701}"
+		},
+		"title": "§2Une Pierre d'invocation ..?",
+		"description": "§aPermet d'invoquer un boss en l'utilisant à un Autel Sacrificiel",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_10_stuff_full",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{Tags:[pierre_invoc_1]}"
+                        
+					}
+				]
+			}
+		}
+	}
+}

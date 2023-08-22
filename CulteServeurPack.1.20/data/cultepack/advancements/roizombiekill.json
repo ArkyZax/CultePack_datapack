@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"killbyplayer": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"type": "minecraft:player"
+				},
+				"entity": {
+					"type": "minecraft:zombie",
+					"nbt": "{Tags:[roi_zombie]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:events/zombiekingboss_phase2"
+	}
+}

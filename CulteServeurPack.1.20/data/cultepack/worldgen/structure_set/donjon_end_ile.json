@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_end_ile",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1180581733,
+		"spacing": 30,
+		"separation": 20
+	}
+}

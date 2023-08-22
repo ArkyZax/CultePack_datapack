@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:10}"
+		},
+		"title": "§4Spider Boy",
+		"description": "§cTuer Spider Boy",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_11_boos_1",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[spider_cowboy]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:chapeaux/boss_2"
+	}
+}

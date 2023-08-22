@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_ocean",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 300388738,
+		"exclusion_zone": {
+			"other_set": "cultepack:donjon_ocean_2",
+			"chunk_count": 3
+		},
+		"spacing": 25,
+		"separation": 22
+	}
+}

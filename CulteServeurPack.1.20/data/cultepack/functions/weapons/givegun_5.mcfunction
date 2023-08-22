@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{EntityTag:{tag:[gun_5]},CustomModelData:6660105,display:{Name:'[{"text":"Sceptre ","italic":false,"color":"gold"},{"text":"d\'Éxperience","color":"yellow"}]',Lore:['[{"text":"Invoque votre xp pour","italic":false,"color":"aqua"}]','[{"text":"réparer vos armures mending.","italic":false,"color":"aqua"}]']}} 1

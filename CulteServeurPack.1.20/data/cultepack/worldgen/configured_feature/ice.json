@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size"
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:blue_ice"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:blue_ice"
+			}
+		},
+		"foliage_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:packed_ice"
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:upwards_branching_trunk_placer",
+			"base_height": 9,
+			"height_rand_a": 4,
+			"height_rand_b": 15,
+			"extra_branch_steps": 2,
+			"extra_branch_length": 2,
+			"place_branch_per_log_probability": 0.6,
+			"can_grow_through": "minecraft:air"
+		},
+		"foliage_placer": {
+			"type": "minecraft:acacia_foliage_placer",
+			"radius": 1,
+			"offset": 0
+		},
+		"decorators": [
+			{
+				"type": "minecraft:alter_ground",
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:snow_block"
+					}
+				}
+			}
+		]
+	}
+}

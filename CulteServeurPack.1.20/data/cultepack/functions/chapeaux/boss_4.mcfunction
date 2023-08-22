@@ -1,0 +1,1 @@
+give @s minecraft:carved_pumpkin{CustomModelData:9,display:{Name:'[{"text":"My meeeen","italic":false,"color":"light_purple"}]',Lore:['[{"text":"Cadeau pour avoir tué","italic":true,"color":"aqua"}]','[{"text":"le Zombie Mutant !","italic":true,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]']}} 1

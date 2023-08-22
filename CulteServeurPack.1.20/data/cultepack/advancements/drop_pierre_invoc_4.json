@@ -1,0 +1,47 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+				
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:player",
+							"type_specific": {
+								"type": "player"
+							}
+						}
+					}
+				],
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:popped_chorus_fruit"
+							],
+							"nbt": "{Tags:[pierre_invoc_4]}"
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"structure": "cultepack:autel_sacrificiel",
+							"block": {
+								"blocks": [
+									"minecraft:enchanting_table"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:mobs/boss/niveau_4"
+	}
+}

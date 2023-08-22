@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": "§5Les Donjons",
+		"description": "§dTu as découvert tout les donjons",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_5_big_ile",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type": "minecraft:player",
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cultepack:visible_5_ile_visite": true,
+							"cultepack:visible_6_ruine_visite": true,
+							"cultepack:visible_7_skeleton_visite": true,
+							"cultepack:visible_8_castle_visite": true,
+							"cultepack:visible_12_caverne_1_visite": true,
+							"cultepack:visible_12_caverne_2_visite": true,
+							"cultepack:visible_5_big_ile": true,
+							"cultepack:visible_8_donjon_ocean_1_visite": true,
+							"cultepack:visible_8_donjon_ocean_2_visite": true,
+							"cultepack:visible_13_bastion_visite": true,
+							"cultepack:visible_14_arbre_visite": true,
+							"cultepack:visible_15_petit_village": true
+						}
+					},
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:chapeaux/danger"
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:wither_skeleton_skull",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"shield_jump_1\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[JUMP]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de jump\"}]','[{\"text\":\"boost niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 15
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+		
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77701,Tags:[\"pierre_invoc_1\"],display:{Name:'[{\"text\":\"Pierre d\\'Invocation ★\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Contient une âme\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]','[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"shield_speed_1\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[SPEED]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de speed\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

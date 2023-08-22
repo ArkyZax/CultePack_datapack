@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_bastion",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1530726360,
+		"spacing": 20,
+		"separation": 18
+	}
+}

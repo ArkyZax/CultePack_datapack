@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": [
+			   "cultepack:foret_mutante"
+],
+	"step": "surface_structures",
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_thin",
+	"start_pool": "cultepack:donjon_end_castle",
+	"size": 6,
+	"start_height": {
+		"type": "minecraft:uniform",
+		"min_inclusive": {
+			"absolute": 1
+		},
+		"max_inclusive": {
+			"absolute": 4
+		}
+	},
+	"project_start_to_heightmap": "WORLD_SURFACE_WG",
+	"max_distance_from_center": 80,
+	"use_expansion_hack": false
+}

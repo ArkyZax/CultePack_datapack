@@ -1,0 +1,4 @@
+recipe take @s cultepack:chien_up_4
+advancement revoke @s only cultepack:chien_up_4
+give @s popped_chorus_fruit{CustomModelData:77710,Tags:chien_4,display:{Name:'[{"text":"Amélioration Chien","italic":false,"color":"blue"},{"text":" "},{"text":"[lvl-4]","color":"light_purple"}]',Lore:['[{"text":"Offre à ton chien :","italic":false,"color":"dark_aqua"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":" +2 attaque","italic":false,"color":"gold"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":" ","italic":false,"color":"dark_purple"},{"text":"+5 vie","color":"gold"}]']}}
+clear @s knowledge_book

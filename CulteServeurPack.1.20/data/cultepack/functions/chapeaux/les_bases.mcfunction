@@ -1,0 +1,1 @@
+give @s minecraft:carved_pumpkin{CustomModelData:1,display:{Name:'[{"text":"El Sombrero","italic":false,"color":"light_purple"}]',Lore:['[{"text":"Cadeau pour avoir","italic":true,"color":"aqua"}]','[{"text":"visité les zones","italic":true,"color":"aqua"}]','[{"text":"safes !","italic":true,"color":"aqua"}]']}} 1

@@ -1,0 +1,124 @@
+{
+	"type": "cultepack:culte",
+	"generator": {
+	  "type": "minecraft:noise",
+	  "settings": "minecraft:overworld",
+	  "biome_source": {
+		"type": "minecraft:multi_noise",
+		"biomes": [
+		  {
+			"biome": "cultepack:ocean",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": 0,
+			  "continentalness": [
+				-2,
+				-0.4
+			  ],
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "cultepack:zone_morte",
+			"parameters": {
+			  "temperature": [
+				0.7,
+				2
+			  ],
+			  "humidity": [
+				0.2,
+				1
+			  ],
+			  "continentalness": [
+				-0.1,
+				2
+			  ],
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "cultepack:foret_mutante",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": [
+				0.2,
+				1
+			  ],
+			  "continentalness": [
+				0,
+				2
+			  ],
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "cultepack:terre_magique",
+			"parameters": {
+			  "temperature": [
+				0.3,
+				1.5
+			  ],
+			  "humidity": 0,
+			  "continentalness": [
+				0.3,
+				2
+			  ],
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "cultepack:marecage",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": [
+				-2,
+				-0.1
+			  ],
+			  "continentalness": [
+				0.2,
+				1
+			  ],
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "cultepack:desert_de_glace",
+			"parameters": {
+			  "temperature": [
+				-2,
+				-0.9
+			  ],
+			  "humidity": [
+				0,
+				0.5
+			  ],
+			  "continentalness": [
+				0.5,
+				2
+			  ],
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  }
+		]
+	  }
+	}
+  }
+  

@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Potion de Force II\",\"italic\":false,\"color\":\"dark_red\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:3,Duration:600,Amplifier:1},{Id:23,Duration:1200,Amplifier:1},{Id:5,Duration:1200,Amplifier:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Potion de Force I\",\"italic\":false,\"color\":\"dark_red\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:3,Duration:300},{Id:23,Duration:600},{Id:5,Duration:600}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection III\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:12,Duration:1800,Amplifier:4},{Id:10,Duration:1200,Amplifier:2},{Id:11,Duration:1800,Amplifier:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 7,
+								"max": 47
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection II\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:12,Duration:1200,Amplifier:3},{Id:10,Duration:600},{Id:11,Duration:1200,Amplifier:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection I\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:12,Duration:600,Amplifier:2},{Id:10,Duration:300},{Id:11,Duration:600}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

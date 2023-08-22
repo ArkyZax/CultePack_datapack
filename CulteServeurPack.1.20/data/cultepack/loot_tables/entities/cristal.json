@@ -1,0 +1,69 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77703,Tags:[cristal_3explo],display:{Name:'[{\"text\":\"Cristal Triple Explosion\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"le \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Base\",\"color\":\"light_purple\"},{\"text\":\".\"}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77704,Tags:[cristal_golem],display:{Name:'[{\"text\":\"Cristal \",\"italic\":false,\"color\":\"green\"},{\"text\":\"d\\'Invocation\",\"color\":\"green\"},{\"text\":\" : \"},{\"text\":\"Iron Golem\",\"underlined\":true,\"color\":\"white\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"le \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Base\",\"color\":\"light_purple\"},{\"text\":\".\"}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77705,Tags:[cristal_tp],display:{Name:'[{\"text\":\"Cristal de Téléportation\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77706,Tags:[cristal_xp],display:{Name:'[{\"text\":\"Cristal d\\'Éxperience\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

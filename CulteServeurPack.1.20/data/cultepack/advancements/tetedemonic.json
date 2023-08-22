@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"plastondemonic": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cultepack:demonictete"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:armors/adddemonictete"
+	}
+}

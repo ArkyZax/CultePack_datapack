@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:end_ruine",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 797898413,
+		"spacing": 25,
+		"separation": 23
+	}
+}

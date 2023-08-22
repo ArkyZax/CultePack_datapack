@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_chestplate"
+		},
+		"title": "§2Armure Démoniaque",
+		"description": "§aArmure démoniaque complète",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_10_stuff_1",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type": "minecraft:player",
+					"type_specific": {
+						"type": "player"
+					},
+					"equipment": {
+						"head": {
+							"nbt": "{Tags:[cultestuff]}"
+						},
+						"chest": {
+							"nbt": "{Tags:[cultestuff]}"
+						},
+						"legs": {
+							"nbt": "{Tags:[cultestuff]}"
+						},
+						"feet": {
+							"nbt": "{Tags:[cultestuff]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:events/effectdebloque"
+	}
+}

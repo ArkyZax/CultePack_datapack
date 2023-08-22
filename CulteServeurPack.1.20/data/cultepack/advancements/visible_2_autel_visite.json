@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+		"title": "§3Autel Sacrificiel",
+		"description": "§bCet autel permet d'invoquer les boss",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_1_entrer",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type": "player",
+					"type_specific": {
+						"type": "player"
+					},
+					"location": {
+						"structure": "cultepack:autel_sacrificiel"
+					}
+				}
+			}
+		}
+	}
+}

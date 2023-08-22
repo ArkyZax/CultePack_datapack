@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_end_castle",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "cultepack:end_caverne_1",
+			"chunk_count": 2
+		},
+		"salt": 749506387,
+		"spacing": 20,
+		"separation": 18
+	}
+}

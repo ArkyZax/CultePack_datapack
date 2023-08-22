@@ -1,0 +1,60 @@
+{
+	"temperature": 0,
+	"downfall": 0.7,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 2518770,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"grass_color": 16777215,
+		"foliage_color": 16777215
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:stray",
+				"weight": 2,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:phantom",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:canyon"
+		]
+	},
+	"features": [
+	
+	["minecraft:iceberg_blue",
+	"minecraft:iceberg_packed"
+	]
+	,
+	["cultepack:ice"],
+	[	"minecraft:ice_spike",
+	"minecraft:ice_patch"
+	],
+	["minecraft:seagrass_cold","minecraft:sea_pickle"],
+	
+	["minecraft:blue_ice"],
+	["minecraft:iceberg_blue",
+	"minecraft:iceberg_packed"
+	],
+	["cultepack:lac"],
+	["cultepack:glowstone_arbre"],
+	["cultepack:ile_arbre_5"],
+	["minecraft:patch_grass_taiga"],
+	["cultepack:bedrock"]
+	
+	
+
+	]
+}

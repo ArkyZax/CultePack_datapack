@@ -1,0 +1,24 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "minecraft:player",
+		"type_specific": {
+			"type": "player"
+		},
+		"equipment": {
+			"chest": {
+				"nbt": "{Tags:[\"cultestuff\"]}"
+			},
+			"head": {
+				"nbt": "{Tags:[\"cultestuff\"]}"
+			},
+			"legs": {
+				"nbt": "{Tags:[\"cultestuff\"]}"
+			},
+			"feet": {
+				"nbt": "{Tags:[\"cultestuff\"]}"
+			}
+		}
+	}
+}

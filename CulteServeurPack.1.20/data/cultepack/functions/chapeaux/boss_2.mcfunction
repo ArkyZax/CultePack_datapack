@@ -1,0 +1,1 @@
+give @s minecraft:carved_pumpkin{CustomModelData:5,display:{Name:'[{"text":"Masque Du Docteur ?","italic":false,"color":"light_purple"}]',Lore:['[{"text":"Cadeau pour avoir tué","italic":true,"color":"aqua"}]','[{"text":"Spider-Boy","italic":true,"color":"aqua"}]']}} 1

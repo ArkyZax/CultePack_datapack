@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": "§4Les Boss",
+		"description": "§cTu as tué tout les boss",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_11_boos_4",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type": "minecraft:player",
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cultepack:visible_11_boos_1": true,
+							"cultepack:visible_11_boos_2": true,
+							"cultepack:visible_11_boos_3": true,
+							"cultepack:visible_11_boos_4": true
+						}
+					},
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	}
+}

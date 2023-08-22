@@ -1,0 +1,45 @@
+{
+	"temperature": 0.4,
+	"downfall": 0.2,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 15662848,
+		"fog_color": 11315232,
+		"water_color": 57855,
+		"water_fog_color": 5767147,
+		"grass_color": 3064070,
+		"foliage_color": 327424
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:zombie",
+				"weight": 3,
+				"minCount": 10,
+				"maxCount": 30
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		["minecraft:spring_water",
+		"cultepack:lac"],
+		[],
+		["cultepack:ile_arbre_2"],
+		[],
+		["cultepack:ile_arbre"],
+		[],
+		[],
+		[
+		"flower_flower_forest",
+		"flower_forest_flowers",
+		"patch_grass_jungle"
+		],
+
+	
+		[],
+		["cultepack:ile_arbre_3"],
+		["cultepack:bedrock"]
+	]
+}

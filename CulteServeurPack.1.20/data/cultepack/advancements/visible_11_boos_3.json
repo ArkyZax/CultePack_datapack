@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:11}"
+		},
+		"title": "§4Roi Zombie",
+		"description": "§cTuer le Roi Zombie",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_11_boos_2",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[roi_zombie_2]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:chapeaux/boss_3"
+	}
+}

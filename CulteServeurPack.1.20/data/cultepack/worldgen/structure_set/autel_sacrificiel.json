@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:autel_sacrificiel",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "cultepack:donjon_bastion",
+			"chunk_count": 2
+		},
+		"salt": 1586368652,
+		"spacing": 24,
+		"separation": 18
+	}
+}

@@ -1,0 +1,27 @@
+[
+	{
+		"condition": "minecraft:match_tool",
+		"predicate": {
+			"items": [
+				"minecraft:popped_chorus_fruit"
+			],
+			"nbt": "{Tags:[pierre_invoc_1]}"
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"type": "minecraft:player",
+			"type_specific": {
+				"type": "player"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"structure": "cultepack:autel_sacrificiel"
+		}
+	}
+]

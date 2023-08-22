@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_ocean_2",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1441371845,
+		
+		"spacing": 20,
+		"separation": 5
+	}
+}

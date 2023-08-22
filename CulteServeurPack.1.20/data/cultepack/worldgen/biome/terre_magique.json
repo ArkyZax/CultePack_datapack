@@ -1,0 +1,73 @@
+{
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "has_precipitation": false,
+    "effects": {
+      "sky_color": 16056557,
+      "fog_color": 14352574,
+      "water_color": 2415359,
+      "water_fog_color": 61183,
+      "grass_color": 65331,
+      "foliage_color": 16393675
+     
+    
+    },
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:endermite",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:parrot",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:allay",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    },
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+          [
+            "cultepack:arbre_magic"
+          ],
+          [
+            "cultepack:torcham"
+          ],
+          [ "cultepack:vine",
+        "minecraft:twisting_vines"
+      ],
+          [],
+          [
+            "cultepack:arbre_magic2"
+
+          ],
+          [],
+          ["cultepack:sculk_1"],
+          [
+            "flower_flower_forest",
+            "flower_forest_flowers",
+            "patch_grass_jungle"
+            ]
+
+
+    ]
+  }
+  

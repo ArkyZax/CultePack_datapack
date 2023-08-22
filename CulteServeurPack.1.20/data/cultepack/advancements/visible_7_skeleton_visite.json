@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_nether_bricks"
+		},
+		"title": "§5Tour aux squelettes",
+		"description": "§dWither squelettes qui gardent une petite tour",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_15_petit_village",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type": "player",
+					"type_specific": {
+						"type": "player"
+					},
+					"location": {
+						"structure": "cultepack:donjon_end_skeleton"
+					}
+				}
+			}
+		}
+	}
+}

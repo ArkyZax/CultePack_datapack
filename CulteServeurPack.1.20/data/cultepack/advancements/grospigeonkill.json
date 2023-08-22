@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"killbyplayer": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"type": "minecraft:player"
+				},
+				"entity": {
+					"type": "minecraft:phantom",
+					"nbt": "{Tags:[gros_pigeon]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:events/phantomboss_phase2"
+	}
+}

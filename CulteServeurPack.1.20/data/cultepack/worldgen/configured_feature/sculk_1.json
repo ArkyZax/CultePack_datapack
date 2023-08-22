@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:multiface_growth",
+    "config": {
+      "block": "minecraft:sculk_vein",
+      "search_range": 20,
+      "chance_of_spreading": 1,
+      "can_place_on_floor": true,
+      "can_place_on_ceiling": false,
+      "can_place_on_wall": true,
+      "can_be_placed_on": [
+        "minecraft:grass_block",
+        "minecraft:crimson_hyphae",
+        "minecraft:stone"
+      ]
+    }
+  }
+  
