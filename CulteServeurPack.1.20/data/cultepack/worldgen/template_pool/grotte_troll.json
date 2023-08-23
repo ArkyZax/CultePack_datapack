@@ -1,0 +1,15 @@
+{
+	"name": "cultepack:grotte_troll",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:grotte_troll",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

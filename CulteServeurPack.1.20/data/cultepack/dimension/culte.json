@@ -116,6 +116,24 @@
 			  "depth": 0,
 			  "offset": 0
 			}
+		  },
+		  {
+			"biome": "cultepack:montagne",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": 0,
+			  "continentalness": [
+				0.6,
+				2
+			  ],
+			  "erosion": 0,
+			  "weirdness": [
+				0.8,
+				2
+			  ],
+			  "depth": 0,
+			  "offset": 0
+			}
 		  }
 		]
 	  }

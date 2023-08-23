@@ -1,0 +1,58 @@
+{
+    "temperature": 0.4,
+    "downfall": 0.2,
+    "has_precipitation": false,
+    "effects": {
+      "sky_color": 5006224,
+      "fog_color": 2237221,
+      "water_color": 13726,
+      "water_fog_color": 329011,
+      "grass_color": 1923601,
+      "foliage_color": 1986077
+    },
+    "spawners": {
+      "creature": [
+        {
+          "type": "minecraft:goat",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:wolf",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 3
+        }
+      ]
+    },
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+        ["cultepack:sapin"],
+        [
+         "minecraft:dripstone_cluster",
+         "minecraft:large_dripstone",
+         "minecraft:pointed_dripstone"
+        ],
+        [
+          "minecraft:forest_rock",
+          "minecraft:patch_berry_bush"
+          
+        ],
+        [
+          "cultepack:sapin_glow"
+        ],
+        [
+          "minecraft:patch_grass_taiga",
+          "minecraft:flower_meadow",
+          "minecraft:patch_dead_bush",
+          "minecraft:patch_tall_grass"
+         
+        ],
+        ["cultepack:bedrock"]
+
+
+    ]
+  }
+  

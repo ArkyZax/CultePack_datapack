@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:sapin_piege",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "cultepack:portail",
+			"chunk_count": 2
+		},
+		"salt": 28572014,
+		"spacing": 4,
+		"separation": 1
+	}
+}
