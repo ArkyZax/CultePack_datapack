@@ -9,7 +9,7 @@
 		"type": "minecraft:random_spread",
 		"exclusion_zone": {
 			"other_set": "cultepack:donjon_bastion",
-			"chunk_count": 2
+			"chunk_count": 1
 		},
 		"salt": 987569745,
 		"spacing": 20,
