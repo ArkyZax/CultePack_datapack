@@ -20,9 +20,11 @@ scoreboard objectives add motion_z2 dummy
 scoreboard objectives remove time 
 scoreboard objectives remove time_2 
 scoreboard objectives remove time_3
+scoreboard objectives remove time_4
 scoreboard objectives add time dummy
 scoreboard objectives add time_2 dummy
 scoreboard objectives add time_3 dummy
+scoreboard objectives add time_4 dummy
 tag @a[tag=golem_1] remove golem_1
 tag @a[tag=delay_3explo] remove delay_3explo 
 

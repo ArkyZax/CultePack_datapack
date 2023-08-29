@@ -5,6 +5,7 @@ execute as @e[tag=motion_projectile_2,tag=!motion_added] at @s rotated as @p run
 execute as @e[tag=motion_added] run function cultepack:weapons/effect/killproject
 execute as @e[tag=time_added] run function cultepack:weapons/effect/killgolem
 execute as @e[tag=delay_3explo] run function cultepack:weapons/effect/delay_3explo_3
+execute as @e[tag=golem_2] run function cultepack:weapons/effect/kilgolem_2
 
 #coeur
 execute as @e[type=player,nbt={Attributes:[{Base:60d}]}] unless predicate cultepack:cultestuffon run function cultepack:events/coeur
