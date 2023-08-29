@@ -8,9 +8,31 @@
       "water_color": 2415359,
       "water_fog_color": 61183,
       "grass_color": 65331,
-      "foliage_color": 16393675
-     
-    
+      "foliage_color": 16393675,
+      
+      "mood_sound": {
+        "sound": "minecraft:ambient.warped_forest.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.warped_forest.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.warped_forest",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:glow_squid_ink"
+          
+        },
+        "probability": 0.0002
+      }
     },
     "spawners": {
       "monster": [

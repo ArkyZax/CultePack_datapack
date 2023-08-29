@@ -8,8 +8,16 @@
 		"water_color": 57855,
 		"water_fog_color": 5767147,
 		"grass_color": 3064070,
-		"foliage_color": 327424
-	},
+		"foliage_color": 327424,
+		
+
+		"particle": {
+		  "options": {
+			"type": "minecraft:spore_blossom_air"
+		  },
+		  "probability": 0.0005
+		}
+	  },
 	"spawners": {
 		
 		"monster": [
