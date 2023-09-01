@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{EntityTag:{tag:[gun_6]},CustomModelData:6660106,display:{Name:'[{"text":"Sceptre ","italic":false,"color":"gold"},{"text":"d\'Aimant","color":"gray"}]',Lore:['[{"text":"Rassemble tout les items","italic":false,"color":"aqua"}]','[{"text":"à moins de 10 blocks.","italic":false,"color":"aqua"}]']}} 1

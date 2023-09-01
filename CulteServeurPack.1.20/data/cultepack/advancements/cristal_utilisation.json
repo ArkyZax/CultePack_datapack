@@ -13,6 +13,12 @@
 								"type": "player"
 							},
 							"equipment": {
+								"mainhand": {
+									"items": [
+									  "minecraft:carrot_on_a_stick"
+									],
+									"nbt": "{EntityTag:{tag:[gun]}}"
+								  },
 								"offhand": {
 									"items": [
 										"minecraft:popped_chorus_fruit"

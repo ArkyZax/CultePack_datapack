@@ -36,9 +36,6 @@ scoreboard objectives add xp_lvls dummy
 
 
 
-tellraw @a {"text":"DataPack du Culte Chargé. v1.20","color":"red","bold":true}
-tellraw @a {"text":"Ressource Pack Nécessaire.","color":"red","bold":true}
-tellraw @a {"text":"-ArkyZax.","color":"gold","bold":true}
 
 execute as @e[type=player] run attribute @s generic.max_health base set 60
 
@@ -92,3 +89,8 @@ bossbar set zombie_mutant name {"text":"\uFFF7","font":"cultepack:bossbar"}
 bossbar set zombie_mutant color green
 bossbar set zombie_mutant max 1000 
 bossbar set zombie_mutant players @e[type=player]
+
+
+tellraw @a {"text":"DataPack du Culte Chargé. v2.7","color":"red","bold":true}
+tellraw @a {"text":"Ressource Pack Nécessaire.","color":"red","bold":true}
+tellraw @a {"text":"-ArkyZax.","color":"gold","bold":true}

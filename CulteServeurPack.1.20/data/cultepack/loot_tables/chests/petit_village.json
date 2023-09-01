@@ -46,6 +46,34 @@
             ]
           }
         ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:popped_chorus_fruit",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:77713,Tags:[cristal_item],display:{Name:'[{\"text\":\"Cristal d\\'Aimant\",\"italic\":false,\"color\":\"gray\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30
+              }
+            ]
+          
+          }
+        ]
       }
     ]
   }
