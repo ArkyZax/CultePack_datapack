@@ -1,0 +1,55 @@
+{
+    "temperature": 1,
+    "downfall": 0.1,
+    "has_precipitation": false,
+    "effects": {
+      "sky_color": 3516157,
+      "fog_color": 7499374,
+      "water_color": 3718655,
+      "water_fog_color": 61183,
+      "grass_color": 3455266,
+      "foliage_color": 566794
+    },
+    "spawners": {	
+      "monster": [
+        {
+          "type": "minecraft:creeper",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:piglin_brute",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    },
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+     [ 
+       "minecraft:spring_water",
+       "minecraft:kelp_warm"
+   
+     ],
+     [
+        "cultepack:arbre_bois_1",
+        "minecraft:sea_pickle",
+        "minecraft:seagrass_river",
+        "minecraft:patch_grass_forest",
+        "cultepack:arbre_bois_2"
+     ],
+     [
+        "minecraft:lush_caves_ceiling_vegetation",
+        "minecraft:patch_melon",
+        "minecraft:pile_melon",
+        "minecraft:patch_sugar_cane",
+        "minecraft:flower_swamp",
+        "minecraft:flower_plain",
+        "minecraft:patch_sunflower"
+     ]
+    ]
+  }
+  

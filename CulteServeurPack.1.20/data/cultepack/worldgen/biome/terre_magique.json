@@ -78,7 +78,10 @@
       ],
           [],
           [
+            "minecraft:sea_pickle",
+        "minecraft:seagrass_river",
             "cultepack:arbre_magic2"
+            
 
           ],
           [],

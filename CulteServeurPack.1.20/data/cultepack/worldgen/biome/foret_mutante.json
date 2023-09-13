@@ -59,8 +59,9 @@
 		[
 			
 			
-		"minecraft:lush_caves_ceiling_vegetation"
-			
+		"minecraft:lush_caves_ceiling_vegetation",
+		"minecraft:sea_pickle",
+        "minecraft:seagrass_river"
 			
 		],
 		["cultepack:ile_arbre_3"],

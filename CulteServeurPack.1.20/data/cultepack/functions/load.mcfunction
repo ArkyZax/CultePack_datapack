@@ -1,8 +1,8 @@
-#le pistolet
+#le sceptre magiiiic
 scoreboard objectives remove carrot 
 scoreboard objectives add carrot minecraft.used:minecraft.carrot_on_a_stick
 
-#les balles du gun
+#les calculs de traj des sceptre
 scoreboard objectives remove motion_x1 
 scoreboard objectives remove motion_y1 
 scoreboard objectives remove motion_z1 
@@ -36,7 +36,7 @@ scoreboard objectives add xp_lvls dummy
 
 
 
-
+#si seulement mc pouvait juste retenir les attribute esti dmarde x)
 execute as @e[type=player] run attribute @s generic.max_health base set 60
 
 #bossbar
