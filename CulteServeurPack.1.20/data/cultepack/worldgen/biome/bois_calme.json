@@ -53,8 +53,10 @@
         "minecraft:patch_sugar_cane",
         "minecraft:flower_swamp",
         "minecraft:flower_plain",
-        "minecraft:patch_sunflower"
-     ]
+        "minecraft:patch_sunflower",
+        "patch_grass_jungle"
+     ],
+     ["cultepack:bedrock"]
     ]
   }
   
