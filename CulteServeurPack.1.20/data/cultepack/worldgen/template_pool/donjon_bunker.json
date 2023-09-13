@@ -1,0 +1,15 @@
+{
+	"name": "cultepack:donjon_bunker",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:donjon_bunker",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}
