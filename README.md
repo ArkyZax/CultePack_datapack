@@ -3,7 +3,7 @@
 ## Informations
 
 - Créer le 07/03/2023
-- Dernière mise à jour le 28/08/2023
+- Dernière mise à jour le 12/09/2023
 
 - Ajoute une dimension "culte" où énormement de donjons vous attendent.
 - 7 nouveaux biomes.
