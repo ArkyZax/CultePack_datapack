@@ -87,6 +87,7 @@
           [],
           ["cultepack:sculk_1"],
           [
+            "minecraft:lush_caves_ceiling_vegetation",
             "flower_flower_forest",
             "flower_forest_flowers",
             "patch_grass_jungle"

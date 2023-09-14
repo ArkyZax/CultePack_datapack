@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_toure_bois",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "cultepack:portail",
+			"chunk_count": 2
+		},
+		"salt": 678239417,
+		"spacing": 12,
+		"separation": 8
+	}
+}
