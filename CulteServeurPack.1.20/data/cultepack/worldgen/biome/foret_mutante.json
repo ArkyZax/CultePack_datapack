@@ -41,31 +41,29 @@
 	"carvers": {},
 	"features": [
 		["minecraft:spring_water",
-		"cultepack:lac"],
+
+		"cultepack:lac",
+		"minecraft:sea_pickle"
+		],
 		[],
 		["cultepack:ile_arbre_2"],
 		[],
 		["cultepack:ile_arbre"],
-		[],
+		["minecraft:sea_pickle"],
 		["cultepack:mutant_stone_arbre"],
 		[
 		"flower_flower_forest",
 		"flower_forest_flowers",
-		"patch_grass_jungle"
-		
-		
+		"patch_grass_jungle",
+		"minecraft:sea_pickle"
 		],
-
-	
 		[
-			
-			
 		"minecraft:lush_caves_ceiling_vegetation",
 		"minecraft:sea_pickle",
         "minecraft:seagrass_river"
-			
 		],
-		["cultepack:ile_arbre_3"],
+		["cultepack:ile_arbre_3",
+		"minecraft:sea_pickle"],
 		["cultepack:bedrock"]
 	]
 }

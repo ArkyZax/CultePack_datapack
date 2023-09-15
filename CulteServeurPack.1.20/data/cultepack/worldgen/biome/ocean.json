@@ -36,7 +36,10 @@
         "minecraft:iceberg_packed"
         ], 
 		["minecraft:grass_bonemeal",
-        "minecraft:patch_grass_jungle"
+        "minecraft:patch_grass_jungle",
+		"minecraft:seagrass_deep_warm",
+		"minecraft:sea_pickle",
+		"minecraft:kelp_cold"
         ],
 		["cultepack:bedrock"]
         ]

@@ -68,13 +68,15 @@
     "carvers": {},
     "features": [
           [
-            "cultepack:arbre_magic"
+            "cultepack:arbre_magic",
+            "minecraft:sea_pickle"
           ],
           [
             "cultepack:torcham"
           ],
           [ "cultepack:vine",
-        "minecraft:twisting_vines"
+        "minecraft:twisting_vines",
+        "minecraft:sea_pickle"
       ],
           [],
           [
@@ -85,12 +87,14 @@
 
           ],
           [],
-          ["cultepack:sculk_1"],
+          ["cultepack:sculk_1",
+          "minecraft:sea_pickle"],
           [
             "minecraft:lush_caves_ceiling_vegetation",
             "flower_flower_forest",
             "flower_forest_flowers",
-            "patch_grass_jungle"
+            "patch_grass_jungle",
+            "minecraft:sea_pickle"
             ],
             ["cultepack:bedrock"]
 

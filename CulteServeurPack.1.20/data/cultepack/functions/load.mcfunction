@@ -91,6 +91,6 @@ bossbar set zombie_mutant max 1000
 bossbar set zombie_mutant players @e[type=player]
 
 
-tellraw @a {"text":"DataPack du Culte Chargé. v2.7","color":"red","bold":true}
+tellraw @a {"text":"DataPack du Culte Chargé. v3.9","color":"red","bold":true}
 tellraw @a {"text":"Ressource Pack Nécessaire.","color":"red","bold":true}
 tellraw @a {"text":"-ArkyZax.","color":"gold","bold":true}
