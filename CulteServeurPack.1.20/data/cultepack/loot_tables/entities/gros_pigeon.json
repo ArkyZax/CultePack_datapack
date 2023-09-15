@@ -49,7 +49,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"shield_resist_1\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[RÉSISTANCE]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de résistance\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
+							"tag": "{Tags:[\"shield_resist_1\"],BlockEntityTag:{Base:0,Patterns:[{Pattern:mr,Color:14},{Pattern:tts,Color:14},{Pattern:hhb,Color:14},{Pattern:bo,Color:14},{Pattern:mc,Color:0},{Pattern:mr,Color:0},{Pattern:sc,Color:14},{Pattern:tts,Color:0},{Pattern:gru,Color:14}]},display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[RÉSISTANCE]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de résistance\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
 						}
 					]
 				}

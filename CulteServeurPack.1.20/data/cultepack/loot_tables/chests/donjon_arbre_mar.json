@@ -85,7 +85,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"shield_poison_res\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[POISON]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de\"}]','[{\"text\":\"poison resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
+							"tag": "{Tags:[\"shield_poison_res\"],BlockEntityTag:{Base:5,Patterns:[{Pattern:gra,Color:13},{Pattern:gru,Color:13},{Pattern:bo,Color:15},{Pattern:mr,Color:15},{Pattern:cre,Color:15},{Pattern:flo,Color:5},{Pattern:sku,Color:13},{Pattern:mc,Color:5},{Pattern:ms,Color:5}]},display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[POISON]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de\"}]','[{\"text\":\"poison resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
 						}
 					]
 				},

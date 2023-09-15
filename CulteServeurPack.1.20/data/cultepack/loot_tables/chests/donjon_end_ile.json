@@ -39,7 +39,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"shield_jump_1\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[JUMP]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de jump\"}]','[{\"text\":\"boost niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
+							"tag": "{Tags:[\"shield_jump_1\"],BlockEntityTag:{Base:9,Patterns:[{Pattern:mc,Color:0},{Pattern:bs,Color:1},{Pattern:flo,Color:15},{Pattern:tt,Color:1},{Pattern:cr,Color:15},{Pattern:bt,Color:15},{Pattern:cbo,Color:1},{Pattern:bts,Color:15}]},display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[JUMP]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de jump\"}]','[{\"text\":\"boost niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
 						}
 					]
 				},
@@ -84,7 +84,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"shield_speed_1\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[SPEED]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de speed\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
+							"tag": "{Tags:[\"shield_speed_1\"],BlockEntityTag:{Base:15,Patterns:[{Pattern:ss,Color:6},{Pattern:ms,Color:15},{Pattern:bo,Color:15},{Pattern:cr,Color:15},{Pattern:mc,Color:6},{Pattern:mc,Color:15}]},display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[SPEED]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de speed\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
 						}
 					]
 				}

@@ -39,7 +39,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"shield_fire_res\"],display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[FIRE]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de\"}]','[{\"text\":\"fire resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
+							"tag": "{Tags:[\"shield_fire_res\"],BlockEntityTag:{Base:1,Patterns:[{Pattern:sc,Color:15},{Pattern:bri,Color:1},{Pattern:ms,Color:1},{Pattern:flo,Color:15},{Pattern:tt,Color:1},{Pattern:gru,Color:14}]},display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[FIRE]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de\"}]','[{\"text\":\"fire resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}} "
 						}
 					]
 				},
