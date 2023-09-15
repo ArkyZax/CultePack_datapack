@@ -1,0 +1,68 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:baked_potato",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 20,
+                  "max": 25
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 15
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:hay_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 14
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
