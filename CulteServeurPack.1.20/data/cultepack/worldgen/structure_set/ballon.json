@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:ballon",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 2108621404,
+		
+		"spacing": 27,
+		"separation": 20
+	}
+}
