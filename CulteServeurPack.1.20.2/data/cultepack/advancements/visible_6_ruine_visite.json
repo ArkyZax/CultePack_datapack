@@ -11,7 +11,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "cultepack:visible_8_donjon_ocean_2_visite",
+	"parent": "cultepack:visible_16_grotte",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",

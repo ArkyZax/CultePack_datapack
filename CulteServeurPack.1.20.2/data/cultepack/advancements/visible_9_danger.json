@@ -32,7 +32,9 @@
 							"cultepack:visible_8_donjon_ocean_2_visite": true,
 							"cultepack:visible_13_bastion_visite": true,
 							"cultepack:visible_14_arbre_visite": true,
-							"cultepack:visible_15_petit_village": true
+							"cultepack:visible_15_petit_village": true,
+							"cultepack:visible_16_grotte": true,
+							"cultepack:visible_17_bunker": true
 						}
 					},
 					"location": {
