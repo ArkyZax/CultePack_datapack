@@ -31,7 +31,12 @@ tag @a[tag=delay_3explo] remove delay_3explo
 scoreboard objectives remove xp_lvls 
 scoreboard objectives add xp_lvls dummy
 
-
+#scoreboard events dimension custom
+kill @e[type=wither_skull,tag=bombe]
+scoreboard objectives remove rdmevent
+scoreboard objectives add rdmevent dummy
+scoreboard objectives remove bombetime
+scoreboard objectives add bombetime dummy
 
 
 

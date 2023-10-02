@@ -7,6 +7,13 @@ execute as @e[tag=time_added] run function cultepack:weapons/effect/killgolem
 execute as @e[tag=delay_3explo] run function cultepack:weapons/effect/delay_3explo_3
 execute as @e[tag=golem_2] run function cultepack:weapons/effect/kilgolem_2
 
+#random events
+execute as @e[type=player,tag=!culterdm,predicate=cultepack:dimensioncheck] run function cultepack:events/event/rdmstart
+execute as @e[type=player,tag=culterdm,predicate=!cultepack:dimensioncheck] run tag @s remove culterdm
+execute as @e[type=player,tag=culterdm,predicate=cultepack:dimensioncheck] run function cultepack:events/event/rdmcalcule
+execute as @e[type=armor_stand,tag=armorstand_test,predicate=cultepack:armorstand_test] run function cultepack:events/event/10min/armorstand_test
+execute as @e[type=wither_skull,tag=bombe] run function cultepack:events/event/10min/killbombe
+
 #coeur
 execute as @e[type=player,nbt={Attributes:[{Base:60d}]}] unless predicate cultepack:cultestuffon run function cultepack:events/coeur
 execute as @e[type=player,nbt={Inventory:[{id:"minecraft:netherite_chestplate"},{tag:{Tags:["cultestuff"]}}]}] at @s if predicate cultepack:cultestuffon run function cultepack:events/addcoeur
