@@ -9,6 +9,7 @@ execute as @e[tag=golem_2] run function cultepack:weapons/effect/kilgolem_2
 
 #random events
 execute as @e[type=player,tag=!culterdm,predicate=cultepack:dimensioncheck] run function cultepack:events/event/rdmstart
+execute as @e[type=player,tag=culterdm,predicate=!cultepack:dimensioncheck] run scoreboard players set @s rdmevent 0 
 execute as @e[type=player,tag=culterdm,predicate=!cultepack:dimensioncheck] run tag @s remove culterdm
 execute as @e[type=player,tag=culterdm,predicate=cultepack:dimensioncheck] run function cultepack:events/event/rdmcalcule
 execute as @e[type=armor_stand,tag=armorstand_test,predicate=cultepack:armorstand_test] run function cultepack:events/event/10min/armorstand_test
