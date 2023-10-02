@@ -19,6 +19,18 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
+					"name": "minecraft:netherite_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
 					"name": "minecraft:netherite_boots",
 					"functions": [
 						{
@@ -51,7 +63,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 6
+								"max": 3
 							}
 						}
 					]

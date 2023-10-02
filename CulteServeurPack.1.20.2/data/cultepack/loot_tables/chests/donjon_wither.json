@@ -9,16 +9,47 @@
 			"entries": [
                 {
                     "type": "minecraft:item",
-					"weight": 6,
+					"weight": 2,
 					"name": "minecraft:netherite_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 2
 							}
 						}
+						
+					]
+                },
+				{
+                    "type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:wither_skeleton_skull",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+						
+					]
+                },
+				{
+                    "type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 25
+							}
+						}
+						
 					]
                 }
             ]
