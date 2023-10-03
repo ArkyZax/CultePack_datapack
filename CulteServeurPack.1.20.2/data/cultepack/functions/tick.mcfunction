@@ -14,6 +14,8 @@ execute as @e[type=player,tag=culterdm,predicate=!cultepack:dimensioncheck] run 
 execute as @e[type=player,tag=culterdm,predicate=cultepack:dimensioncheck] run function cultepack:events/event/rdmcalcule
 execute as @e[type=armor_stand,tag=armorstand_test,predicate=cultepack:armorstand_test] run function cultepack:events/event/10min/armorstand_test
 execute as @e[type=wither_skull,tag=bombe] run function cultepack:events/event/10min/killbombe
+execute as @e[type=armor_stand,tag=armorstand_test_2,predicate=cultepack:armorstand_test] run function cultepack:events/event/1h/armorstand_test_2
+
 
 #coeur
 execute as @e[type=player,nbt={Attributes:[{Base:60d}]}] unless predicate cultepack:cultestuffon run function cultepack:events/coeur

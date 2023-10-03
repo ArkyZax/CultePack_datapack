@@ -32,6 +32,7 @@ scoreboard objectives remove xp_lvls
 scoreboard objectives add xp_lvls dummy
 
 #scoreboard events dimension custom
+kill @e[type=armor_stand,tag=armorstand_test,tag=armorstand_test_2]
 kill @e[type=wither_skull,tag=bombe]
 scoreboard objectives remove rdmevent
 scoreboard objectives add rdmevent dummy
