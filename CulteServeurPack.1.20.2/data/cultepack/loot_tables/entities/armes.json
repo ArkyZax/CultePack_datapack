@@ -48,6 +48,38 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:6660104,Tags:[\"poison_sword\"],display:{Name:'[{\"text\":\"Épée empoisonnée\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Elle donne à vos\",\"italic\":false}]','[{\"text\":\"ennemis un effet poison \",\"italic\":false}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:6660105,Tags:[\"ice_sword\"],display:{Name:'[{\"text\":\"Faux De Glace\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"Elle immobilise vos\",\"italic\":false}]','[{\"text\":\"ennemis dans la neige\",\"italic\":false}]']}}"
+						}
+					]
+				} 	
+			]
 		}
     ]
 }

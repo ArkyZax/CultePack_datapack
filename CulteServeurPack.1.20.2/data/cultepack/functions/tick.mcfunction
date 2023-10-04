@@ -38,6 +38,7 @@ execute as @e[type=wolf,predicate=cultepack:portail] run execute in overworld ru
 #armes
 execute as @e[type=player,nbt={SelectedItem:{tag:{Tags:"marteau_demonic"}}}] run function cultepack:events/slowness
 
+
 #chien
 execute as @e[type=item] if predicate cultepack:chien_1 at @s as @e[type=wolf,tag=!chien_up_1,tag=!chien_up_2,tag=!chien_up_3,tag=!chien_up_4,tag=!chien_up_5,tag=!chien_up_6,distance=..1,limit=1] run function cultepack:chiens/chien_up_1
 execute as @e[type=item] if predicate cultepack:chien_2 at @s as @e[type=wolf,tag=chien_up_1,distance=..1,limit=1] run function cultepack:chiens/chien_up_2

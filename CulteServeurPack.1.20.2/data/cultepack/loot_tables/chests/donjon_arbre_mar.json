@@ -9,7 +9,7 @@
 			"entries": [
                 {
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 5,
 					"name": "minecraft:crimson_hyphae",
 					"functions": [
 						{
@@ -23,7 +23,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 5,
 					"name": "minecraft:cobweb",
 					"functions": [
 						{
@@ -38,7 +38,7 @@
 				
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 5,
 					"name": "minecraft:amethyst_block",
 					"functions": [
 						{
@@ -52,7 +52,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 4,
 					"name": "minecraft:diamond",
 					"functions": [
 						{
@@ -66,7 +66,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 6,
 					"name": "minecraft:golden_apple",
 					"functions": [
 						{
@@ -80,7 +80,7 @@
 				},
                 {
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 2,
 					"name": "minecraft:shield",
 					"functions": [
 						{
@@ -91,7 +91,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 6,
 					"name": "minecraft:experience_bottle",
 					"functions": [
 						{
@@ -100,6 +100,17 @@
 								"min": 16,
 								"max": 32
 							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:6660104,Tags:[\"poison_sword\"],display:{Name:'[{\"text\":\"Épée empoisonnée\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Elle donne à vos\",\"italic\":false}]','[{\"text\":\"ennemis un effet poison \",\"italic\":false}]']}}"
 						}
 					]
 				}

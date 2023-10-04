@@ -329,4 +329,25 @@ execute at @s run setblock ~ ~-10 ~1 crying_obsidian replace
 execute at @s run setblock ~-1 ~-10 ~ crying_obsidian replace
 execute at @s run setblock ~ ~-10 ~-1 crying_obsidian replace
 
+execute at @s run setblock ~1 ~-10 ~1 crying_obsidian replace
+execute at @s run setblock ~1 ~-10 ~-1 crying_obsidian replace
+execute at @s run setblock ~-1 ~-10 ~1 crying_obsidian replace
+execute at @s run setblock ~-1 ~-10 ~-1 crying_obsidian replace
+
+execute at @s run setblock ~1 ~-11 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-11 ~1 crying_obsidian replace
+execute at @s run setblock ~-1 ~-11 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-11 ~-1 crying_obsidian replace
+execute at @s run setblock ~1 ~-9 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-9 ~1 crying_obsidian replace
+execute at @s run setblock ~-1 ~-9 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-9 ~-1 crying_obsidian replace
+
+execute at @s run setblock ~ ~-12 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-8 ~ crying_obsidian replace
+execute at @s run setblock ~2 ~-10 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-10 ~2 crying_obsidian replace
+execute at @s run setblock ~-2 ~-10 ~ crying_obsidian replace
+execute at @s run setblock ~ ~-10 ~-2 crying_obsidian replace
+
 kill @s

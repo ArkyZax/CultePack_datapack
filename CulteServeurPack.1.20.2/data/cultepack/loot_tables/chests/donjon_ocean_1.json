@@ -9,7 +9,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 6,
+					"weight": 12,
 					"name": "minecraft:packed_ice",
 					"functions": [
 						{
@@ -23,7 +23,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 6,
 					"name": "minecraft:golden_apple",
 					"functions": [
 						{
@@ -37,7 +37,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 9,
 					"name": "minecraft:diamond",
 					"functions": [
 						{
@@ -51,7 +51,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 16,
 					"name": "minecraft:blue_ice",
 					"functions": [
 						{
@@ -65,12 +65,23 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 4,
 					"name": "minecraft:shield",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{Tags:[\"shield_force_1\"],BlockEntityTag:{Base:1,Patterns:[{Pattern:bri,Color:14},{Pattern:ss,Color:0},{Pattern:cbo,Color:0},{Pattern:mr,Color:3},{Pattern:bo,Color:0},{Pattern:flo,Color:0}]},display:{Name:'[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[FORCE]\",\"italic\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Donne un effet de force\"}]','[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:6660105,Tags:[\"ice_sword\"],display:{Name:'[{\"text\":\"Faux De Glace\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"Elle immobilise vos\",\"italic\":false}]','[{\"text\":\"ennemis dans la neige\",\"italic\":false}]']}}"
 						}
 					]
 				}
