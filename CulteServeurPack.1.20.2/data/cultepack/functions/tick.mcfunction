@@ -16,6 +16,11 @@ execute as @e[type=armor_stand,tag=armorstand_test,predicate=cultepack:armorstan
 execute as @e[type=wither_skull,tag=bombe] run function cultepack:events/event/10min/killbombe
 execute as @e[type=armor_stand,tag=armorstand_test_2,predicate=cultepack:armorstand_test] run function cultepack:events/event/1h/armorstand_test_2
 
+#boss wither
+execute as @e[type=wither,tag=boss_5] at @s run function cultepack:mobs/boss/niveau_5_armorstand_tp
+execute as @e[type=armor_stand,tag=boss_5_c,limit=1] unless entity @e[tag=boss_5,distance=..60] run kill @s
+
+
 
 #coeur
 execute as @e[type=player,nbt={Attributes:[{Base:60d}]}] unless predicate cultepack:cultestuffon run function cultepack:events/coeur
