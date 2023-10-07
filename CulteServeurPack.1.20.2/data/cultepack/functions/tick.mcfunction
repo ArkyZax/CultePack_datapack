@@ -17,8 +17,8 @@ execute as @e[type=wither_skull,tag=bombe] run function cultepack:events/event/1
 execute as @e[type=armor_stand,tag=armorstand_test_2,predicate=cultepack:armorstand_test] run function cultepack:events/event/1h/armorstand_test_2
 
 #boss wither
-execute as @e[type=wither,tag=boss_5] at @s run function cultepack:mobs/boss/niveau_5_armorstand_tp
-execute as @e[type=armor_stand,tag=boss_5_c,limit=1] unless entity @e[tag=boss_5,distance=..60] run kill @s
+execute as @e[type=wither,tag=wither_dechu] at @s run function cultepack:mobs/boss/niveau_5_armorstand_tp
+execute as @e[type=armor_stand,tag=boss_5_c] at @s unless entity @e[type=wither,tag=wither_dechu,distance=..6] run kill @s
 
 
 
@@ -98,5 +98,6 @@ execute unless entity @e[tag=zombie_mutant,limit=1] run bossbar set minecraft:zo
 execute as @e[tag=zombie_mutant] at @s if entity @p[distance=..50] run bossbar set minecraft:zombie_mutant players @p
 execute as @e[tag=zombie_mutant] at @s if entity @p[distance=50..] run bossbar set minecraft:zombie_mutant visible false
 execute as @e[tag=zombie_mutant] at @s if entity @p[distance=..50] run bossbar set minecraft:zombie_mutant visible true
+
 
 
