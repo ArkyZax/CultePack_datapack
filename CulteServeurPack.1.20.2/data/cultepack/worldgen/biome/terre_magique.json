@@ -62,12 +62,21 @@
           "minCount": 1,
           "maxCount": 1
         }
+      ],
+      "axolotls": [
+        {
+          "type": "minecraft:axolotl",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 3
+        }
       ]
     },
     "spawn_costs": {},
     "carvers": {},
     "features": [
           [
+            "cultepack:grass_extension",
             "cultepack:arbre_magic",
             "minecraft:sea_pickle"
           ],
@@ -95,7 +104,9 @@
             "flower_forest_flowers",
             "patch_grass_jungle",
             "minecraft:sea_pickle"
+           
             ],
+            
             ["cultepack:bedrock"]
 
 
