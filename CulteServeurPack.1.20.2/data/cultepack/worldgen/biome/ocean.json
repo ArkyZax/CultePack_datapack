@@ -52,7 +52,8 @@
 	"carvers": {},
 	"features": [
         ["minecraft:iceberg_blue",
-        "minecraft:iceberg_packed"
+        "minecraft:iceberg_packed",
+		"cultepack:grass_extension"
         ], 
 		["minecraft:grass_bonemeal",
         "minecraft:patch_grass_jungle",

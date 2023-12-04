@@ -14,7 +14,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Potion de Force II\",\"italic\":false,\"color\":\"dark_red\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:3,Duration:600,Amplifier:1},{Id:23,Duration:1200,Amplifier:1},{Id:5,Duration:1200,Amplifier:1}]}"
+							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Potion de Force II\",\"italic\":false,\"color\":\"dark_red\"}]'},Enchantments:[{}],custom_potion_effects:[{id:haste,amplifier:1b,duration:600},{id:strength,amplifier:1b,duration:1200},{id:saturation,amplifier:1b,duration:1200}]}"
 						}
 					]
 				},
@@ -25,7 +25,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Potion de Force I\",\"italic\":false,\"color\":\"dark_red\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:3,Duration:300},{Id:23,Duration:600},{Id:5,Duration:600}]}"
+							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Potion de Force I\",\"italic\":false,\"color\":\"dark_red\"}]'},Enchantments:[{}],custom_potion_effects:[{id:haste,amplifier:1b,duration:300},{id:strength,amplifier:1b,duration:600},{id:saturation,amplifier:1b,duration:600}]}"
 						}
 					]
 				},
@@ -36,7 +36,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection III\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:12,Duration:1800,Amplifier:4},{Id:10,Duration:1200,Amplifier:2},{Id:11,Duration:1800,Amplifier:1}]}"
+							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection III\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],custom_potion_effects:[{id:regeneration,amplifier:1b,duration:600},{id:resistance,amplifier:2b,duration:1200},{id:fire_resistance,amplifier:0b,duration:1500}]}"
 						}
 					]
 				},
@@ -61,7 +61,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection II\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:12,Duration:1200,Amplifier:3},{Id:10,Duration:600},{Id:11,Duration:1200,Amplifier:1}]}"
+							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection II\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],custom_potion_effects:[{id:regeneration,amplifier:1b,duration:300},{id:resistance,amplifier:1b,duration:1200},{id:fire_resistance,amplifier:0b,duration:1200}]}"
 						}
 					]
 				},
@@ -72,7 +72,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection I\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],CustomPotionEffects:[{Id:12,Duration:600,Amplifier:2},{Id:10,Duration:300},{Id:11,Duration:600}]}"
+							"tag": "{CustomPotionColor:7725301,display:{Name:'[{\"text\":\"Potion de Protection I\",\"italic\":false,\"color\":\"aqua\"}]'},Enchantments:[{}],custom_potion_effects:[{id:regeneration,amplifier:0b,duration:300},{id:resistance,amplifier:0b,duration:600},{id:fire_resistance,amplifier:0b,duration:600}]}"
 						}
 					]
 				}
