@@ -59,43 +59,43 @@ execute as @e[type=player] at @s as @e[type=wolf,tag=chien_vie,distance=..3,limi
 #bossbarr
 execute store result bossbar minecraft:spawn value run data get entity @e[limit=1,tag=spawn_armor] Health
 execute unless entity @e[tag=spawn_armor,limit=1] run bossbar set minecraft:spawn players test
-execute as @e[tag=spawn_armor] at @s if entity @p[distance=..10] run bossbar set minecraft:spawn players @p
+execute as @e[tag=spawn_armor] at @s if entity @p[distance=..10] run bossbar set minecraft:spawn players @e[type=player,distance=..10]
 execute as @e[tag=spawn_armor] at @s if entity @p[distance=10..] run bossbar set minecraft:spawn visible false
 execute as @e[tag=spawn_armor] at @s if entity @p[distance=..10] run bossbar set minecraft:spawn visible true
 
 execute store result bossbar minecraft:gros_pigeon value run data get entity @e[limit=1,tag=gros_pigeon] Health
 execute unless entity @e[tag=gros_pigeon,limit=1] run bossbar set minecraft:gros_pigeon players test 
-execute as @e[tag=gros_pigeon] at @s if entity @p[distance=..60] run bossbar set minecraft:gros_pigeon players @p
+execute as @e[tag=gros_pigeon] at @s if entity @p[distance=..60] run bossbar set minecraft:gros_pigeon players @e[type=player,distance=..60]
 execute as @e[tag=gros_pigeon] at @s if entity @p[distance=60..] run bossbar set minecraft:gros_pigeon visible false
 execute as @e[tag=gros_pigeon] at @s if entity @p[distance=..60] run bossbar set minecraft:gros_pigeon visible true
 
 execute store result bossbar minecraft:gros_pigeon_2 value run data get entity @e[limit=1,tag=gros_pigeon_2] Health
 execute unless entity @e[tag=gros_pigeon_2,limit=1] run bossbar set minecraft:gros_pigeon_2 players test
-execute as @e[tag=gros_pigeon_2] at @s if entity @p[distance=..60] run bossbar set minecraft:gros_pigeon_2 players @p
+execute as @e[tag=gros_pigeon_2] at @s if entity @p[distance=..60] run bossbar set minecraft:gros_pigeon_2 players @e[type=player,distance=..60]
 execute as @e[tag=gros_pigeon_2] at @s if entity @p[distance=60..] run bossbar set minecraft:gros_pigeon_2 visible false
 execute as @e[tag=gros_pigeon_2] at @s if entity @p[distance=..60] run bossbar set minecraft:gros_pigeon_2 visible true 
 
 execute store result bossbar minecraft:spider_cowboy value run data get entity @e[limit=1,tag=spider_cowboy] Health
 execute unless entity @e[tag=spider_cowboy,limit=1] run bossbar set minecraft:spider_cowboy players test 
-execute as @e[tag=spider_cowboy] at @s if entity @p[distance=..50] run bossbar set minecraft:spider_cowboy players @p
+execute as @e[tag=spider_cowboy] at @s if entity @p[distance=..50] run bossbar set minecraft:spider_cowboy players @e[type=player,distance=..50]
 execute as @e[tag=spider_cowboy] at @s if entity @p[distance=50..] run bossbar set minecraft:spider_cowboy visible false
 execute as @e[tag=spider_cowboy] at @s if entity @p[distance=..50] run bossbar set minecraft:spider_cowboy visible true
 
 execute store result bossbar minecraft:roi_zombie value run data get entity @e[limit=1,tag=roi_zombie] Health
 execute unless entity @e[tag=roi_zombie,limit=1] run bossbar set minecraft:roi_zombie players test 
-execute as @e[tag=roi_zombie] at @s if entity @p[distance=..50] run bossbar set minecraft:roi_zombie players @p
+execute as @e[tag=roi_zombie] at @s if entity @p[distance=..50] run bossbar set minecraft:roi_zombie players @e[type=player,distance=..50]
 execute as @e[tag=roi_zombie] at @s if entity @p[distance=50..] run bossbar set minecraft:roi_zombie visible false
 execute as @e[tag=roi_zombie] at @s if entity @p[distance=..50] run bossbar set minecraft:roi_zombie visible true
 
 execute store result bossbar minecraft:roi_zombie_2 value run data get entity @e[limit=1,tag=roi_zombie_2] Health
 execute unless entity @e[tag=roi_zombie_2,limit=1] run bossbar set minecraft:roi_zombie_2 players test 
-execute as @e[tag=roi_zombie_2] at @s if entity @p[distance=..50] run bossbar set minecraft:roi_zombie_2 players @p
+execute as @e[tag=roi_zombie_2] at @s if entity @p[distance=..50] run bossbar set minecraft:roi_zombie_2 players @e[type=player,distance=..50]
 execute as @e[tag=roi_zombie_2] at @s if entity @p[distance=50..] run bossbar set minecraft:roi_zombie_2 visible false
 execute as @e[tag=roi_zombie_2] at @s if entity @p[distance=..50] run bossbar set minecraft:roi_zombie_2 visible true
 
 execute store result bossbar minecraft:zombie_mutant value run data get entity @e[limit=1,tag=zombie_mutant] Health
 execute unless entity @e[tag=zombie_mutant,limit=1] run bossbar set minecraft:zombie_mutant players test 
-execute as @e[tag=zombie_mutant] at @s if entity @p[distance=..50] run bossbar set minecraft:zombie_mutant players @p
+execute as @e[tag=zombie_mutant] at @s if entity @p[distance=..50] run bossbar set minecraft:zombie_mutant players @e[type=player,distance=..50]
 execute as @e[tag=zombie_mutant] at @s if entity @p[distance=50..] run bossbar set minecraft:zombie_mutant visible false
 execute as @e[tag=zombie_mutant] at @s if entity @p[distance=..50] run bossbar set minecraft:zombie_mutant visible true
 
