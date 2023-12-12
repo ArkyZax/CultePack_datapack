@@ -3,7 +3,7 @@
 ## Informations
 
 - Créer le 07/03/2023
-- Version : 1.20.2
+- Version : 1.20.4
 
 - Ajoute une dimension "culte" où énormement de donjons vous attendent.
 - 8 nouveaux biomes.
