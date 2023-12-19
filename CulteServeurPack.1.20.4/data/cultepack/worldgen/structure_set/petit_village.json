@@ -8,8 +8,11 @@
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 1146864596,
-		
-		"spacing": 13,
+		"exclusion_zone": {
+			"other_set": "cultepack:cherry_center",
+			"chunk_count": 7
+		},
+		"spacing": 16,
 		"separation": 10
 	}
 }

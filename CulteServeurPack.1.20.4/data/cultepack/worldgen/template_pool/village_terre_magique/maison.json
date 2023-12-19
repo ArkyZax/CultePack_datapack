@@ -1,0 +1,23 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_terre_magique/maison/maison_1",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_terre_magique/maison/maison_2",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}
