@@ -40,6 +40,16 @@
 				"processors": "minecraft:empty"
 			}
 			
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"location": "cultepack:village_terre_magique/rue/rue_maison",
+				"processors": "minecraft:empty"
+			}
+			
 		}
 	]
 }

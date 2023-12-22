@@ -45,6 +45,24 @@
 				"location": "cultepack:village_terre_magique/maison/fruit",
 				"processors": "minecraft:empty"
 			}
+		},
+        {
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_terre_magique/maison/maison_4",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_terre_magique/maison/chill",
+				"processors": "minecraft:empty"
+			}
 		}
 	]
 }
