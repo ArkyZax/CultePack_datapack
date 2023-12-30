@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:village_foret_mutante",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1693771819,
+		
+		"spacing": 32,
+		"separation": 20
+	}
+}

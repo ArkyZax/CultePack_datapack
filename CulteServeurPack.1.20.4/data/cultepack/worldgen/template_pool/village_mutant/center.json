@@ -1,0 +1,14 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/town_center/big_center",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

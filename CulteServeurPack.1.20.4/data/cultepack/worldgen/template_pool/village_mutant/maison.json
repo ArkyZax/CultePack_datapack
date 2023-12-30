@@ -1,0 +1,65 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/maison/maison_1",
+				"processors": "minecraft:empty"
+			}
+			
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/maison/maison_2",
+				"processors": "minecraft:empty"
+			}
+			
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/maison/maison_3",
+				"processors": "minecraft:empty"
+			}
+			
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/maison/maison_4",
+				"processors": "minecraft:empty"
+			}
+			
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/maison/maison_5",
+				"processors": "minecraft:empty"
+			}
+			
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_foret_mutante/maison/maison_6",
+				"processors": "minecraft:empty"
+			}
+			
+		}
+	]
+}
