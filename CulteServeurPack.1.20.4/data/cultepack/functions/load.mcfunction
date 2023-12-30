@@ -101,7 +101,7 @@ bossbar set zombie_mutant players @e[type=player]
 
 
 
-
+difficulty hard
 tellraw @a {"text":"DataPack du Culte Chargé. 1.20.2","color":"red","bold":true}
 tellraw @a {"text":"Ressource Pack Nécessaire.","color":"red","bold":true}
 tellraw @a {"text":"-ArkyZax.","color":"gold","bold":true}
