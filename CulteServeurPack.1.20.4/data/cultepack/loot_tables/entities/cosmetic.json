@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"bague_feu\"],CustomModelData:77714}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

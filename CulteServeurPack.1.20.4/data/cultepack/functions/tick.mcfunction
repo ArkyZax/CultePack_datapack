@@ -29,6 +29,13 @@ execute as @e[type=player,nbt={Inventory:[{id:"minecraft:netherite_chestplate"},
 #bouclier
 execute as @e[type=player,nbt={Inventory:[{id:"minecraft:shield"},{Slot:-106b}]}] run function cultepack:events/shield/shieldeffect
 
+#cosmetic
+execute as @e[type=player] if predicate cultepack:bague_feu at @s run function cultepack:events/cosmetic/bague_feu_effet
+execute as @e[type=armor_stand,tag=fire_r] at @s if entity @p[distance=2.1..] run tag @p remove fire_ring
+execute as @e[type=armor_stand,tag=fire_r] at @s if entity @p[distance=2.1..] run kill @s
+execute as @e[type=player,tag=fire_ring,predicate=!cultepack:bague_feu] run tag @s remove fire_ring
+
+
 #cheval
 execute at @e[type=item,nbt={Item:{id:"minecraft:warden_spawn_egg"}}] run kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:saddle"}}]
 
