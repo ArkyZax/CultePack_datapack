@@ -8,7 +8,10 @@
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 1693771819,
-		
+		"exclusion_zone": {
+			"other_set": "cultepack:donjon_end_castle",
+			"chunk_count": 4
+		},
 		"spacing": 32,
 		"separation": 20
 	}
