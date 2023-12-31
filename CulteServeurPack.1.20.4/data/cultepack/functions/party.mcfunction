@@ -55,3 +55,10 @@ execute run summon firework_rocket ^10 ^8 ^40 {LifeTime:10,FireworksItem:{id:fir
 execute run summon firework_rocket ^12 ^8 ^40 {LifeTime:50,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;2437522],FadeColors:[I;8073150]},{Type:3,Flicker:0,Trail:1,Colors:[I;2651799],FadeColors:[I;11743532]}]}}}}
 execute run summon firework_rocket ^20 ^8 ^40 {LifeTime:40,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;11743532],FadeColors:[I;14188952]},{Type:4,Flicker:1,Trail:1,Colors:[I;2651799],FadeColors:[I;2437522]},{Type:2,Flicker:0,Trail:0,Colors:[I;14602026],FadeColors:[I;15435844]}]}}}}
 execute run summon firework_rocket ^28 ^8 ^40 {LifeTime:35,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:3,Flicker:1,Trail:0,Colors:[I;4312372,14602026],FadeColors:[I;4312372,15435844]}]}}}}
+
+
+
+
+
+
+summon villager ~ ~-1 ~ {VillagerData:{type:snow,profession:weaponsmith,level:5},Offers:{Recipes:[{buy:{id:diamond,Count:10},sell:{id:popped_chorus_fruit,Count:1,tag:{CustomModelData:77714,Tags:[bague_feu],display:{Name:'[{"text":"Bague de Feu","italic":false,"color":"blue"}]',Lore:['[{"text":"Cosmétique","italic":true,"color":"yellow"}]']}}}},{buy:{id:diamond,Count:10},sell:{id:popped_chorus_fruit,Count:1,tag:{CustomModelData:77715,Tags:[bague_riche],display:{Name:'[{"text":"Bague de Richesse","italic":false,"color":"blue"}]',Lore:['[{"text":"Cosmétique","italic":true,"color":"yellow"}]']}}}},{buy:{id:diamond,Count:32},sell:{id:"warden_spawn_egg",Count:1,tag:{CustomModelData:3991,EntityTag:{id:armor_stand,Invisible:1b,DisabledSlots:4144959,Tags:[statue],ArmorItems:[{},{},{},{id:carved_pumpkin,tag:{CustomModelData:38},Count:1}],ArmorDropChances:[0f,0f,0f,0f]},display:{Name:'[{"text":"Snoop Statue","italic":false,"color":"aqua"}]',Lore:['[{"text":"","italic":false}]','[{"text":"Clique droit pour la poser.","italic":true,"color":"yellow"}]','[{"text":"Sneak dessus pour la ramasser.","italic":true,"color":"yellow"}]','[{"text":"S anime à moins de 10 blocs.","italic":true,"color":"yellow"}]']}}}}]}}

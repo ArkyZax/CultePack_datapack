@@ -40,6 +40,10 @@ execute as @e[type=armor_stand,tag=riche_r] at @s if entity @p[distance=2.05..] 
 execute as @e[type=armor_stand,tag=riche_r] at @s if entity @p[distance=2.05..] run kill @s
 execute as @e[type=player,tag=riche_ring,predicate=!cultepack:bague_riche] run tag @s remove riche_ring
 
+execute as @e[type=armor_stand,tag=statue] at @s if entity @p[distance=..10] run function cultepack:events/cosmetic/statue_effet
+execute as @e[type=armor_stand,tag=statue] at @s if entity @p[distance=..1,predicate=cultepack:player_sneak] run function cultepack:events/cosmetic/statue_kill
+
+
 
 #cheval
 execute at @e[type=item,nbt={Item:{id:"minecraft:warden_spawn_egg"}}] run kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:saddle"}}]

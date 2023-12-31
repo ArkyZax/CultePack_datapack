@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warden_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:3991,EntityTag:{id:armor_stand,Invisible:1b,DisabledSlots:4144959,Tags:[\"statue\"],ArmorItems:[{},{},{},{id:carved_pumpkin,tag:{CustomModelData:38},Count:1}],ArmorDropChances:[0f,0f,0f,0f]},display:{Name:'[{\"text\":\"Snoop Statue\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Clique droit pour la poser.\",\"italic\":true,\"color\":\"yellow\"}]','[{\"text\":\"Sneak dessus pour la ramasser.\",\"italic\":true,\"color\":\"yellow\"}]','[{\"text\":\"S\\'anime à moins de 10 blocs.\",\"italic\":true,\"color\":\"yellow\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
