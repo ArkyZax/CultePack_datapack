@@ -30,6 +30,16 @@
 				"processors": "minecraft:empty"
 			}
 			
+        },
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cultepack:village_terre_magique/mob/nature",
+				"processors": "minecraft:empty"
+			}
+			
         }
     ]
 }
