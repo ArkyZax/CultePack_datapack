@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:37}"
+		},
+		"title": "§4Wither Déchu",
+		"description": "§cTuer le Wither Déchu",
+		"background": "minecraft:textures/block/end_portal_frame.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cultepack:visible_11_boos_4",
+	"criteria": {
+		"re": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[wither_dechu]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:chapeaux/boss_5"
+	}
+}

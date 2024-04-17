@@ -56,6 +56,7 @@ bossbar remove roi_zombie
 bossbar remove roi_zombie_2
 bossbar remove spawn
 bossbar remove zombie_mutant
+bossbar remove wither_dechu
 
 bossbar add spawn {"text": "Bienvenue, les infos du datapack sont en bas !","color":"blue"}
 bossbar set spawn name {"text":"\uFFF1","font":"cultepack:bossbar"}
@@ -98,6 +99,10 @@ bossbar set zombie_mutant name {"text":"\uFFF7","font":"cultepack:bossbar"}
 bossbar set zombie_mutant color green
 bossbar set zombie_mutant max 1000 
 bossbar set zombie_mutant players @e[type=player]
+
+bossbar add wither_dechu {"text": "Wither Déchu","color":"blue"}
+bossbar set wither_dechu name {"text":"\uFFF8","font":"cultepack:bossbar"}
+bossbar set wither_dechu players @e[type=player]
 
 
 

@@ -17,6 +17,23 @@
 				}
 			]
 		},
+		
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:16,display:{Name:'[{\"text\":\"Couronne du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Roi Zombie\",\"color\":\"dark_red\"}]'}}"
+						}
+					]
+				}
+			]
+		},
 		{
 			"rolls": 1,
 			"entries": [
@@ -46,7 +63,10 @@
 					"functions": [
 						{
 							"function": "set_count",
-							"count": 1
+							"count": {
+								"min": 1,
+								"max": 4
+							}
 						}
 					]
 				},
@@ -57,7 +77,10 @@
 					"functions": [
 						{
 							"function": "set_count",
-							"count": 5
+							"count": {
+								"min": 5,
+								"max": 12
+							}
 						}
 					]
 				},

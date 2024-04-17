@@ -1,0 +1,101 @@
+{
+	"pools": [
+	
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:37,display:{Name:'[{\"text\":\"Corps du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Wither Déchu\",\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Corps de Boss. Peut être\",\"italic\":false}]','[{\"text\":\"utilisée comme chapeau.\",\"italic\":false}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:netherite_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond_block",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:nether_star",
+                    "functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:experience_bottle",
+                    "functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 32,
+								"max": 64
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:phantom_membrane",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:77702,Tags:[\"upgrader_1\"],display:{Name:'[{\"text\":\"Rune d\\'Armure\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"S\\'utilise à la forge\",\"italic\":false}]','[{\"text\":\"de l\\'End pour améliorer\",\"italic\":false}]','[{\"text\":\"l\\'armure Démoniaque.\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Donne à la pièce d\\'armure :\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"-Protection X\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"-Unbrealing X\",\"italic\":true,\"color\":\"gray\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+    ]
+}

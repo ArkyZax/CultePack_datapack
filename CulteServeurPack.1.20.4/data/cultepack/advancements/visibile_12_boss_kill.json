@@ -11,7 +11,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "cultepack:visible_11_boos_4",
+	"parent": "cultepack:visible_11_boos_5",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",
@@ -24,14 +24,18 @@
 							"cultepack:visible_11_boos_1": true,
 							"cultepack:visible_11_boos_2": true,
 							"cultepack:visible_11_boos_3": true,
-							"cultepack:visible_11_boos_4": true
+							"cultepack:visible_11_boos_4": true,
+							"cultepack:visible_11_boos_5": true
 						}
 					},
 					"location": {
-						"dimension": "minecraft:the_end"
+						"dimension": "cultepack:culte"
 					}
 				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "cultepack:chapeaux/boss_final"
 	}
 }

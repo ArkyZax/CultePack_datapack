@@ -116,4 +116,12 @@ execute as @e[tag=zombie_mutant] at @s if entity @p[distance=50..] run bossbar s
 execute as @e[tag=zombie_mutant] at @s if entity @p[distance=..50] run bossbar set minecraft:zombie_mutant visible true
 
 
+execute unless entity @e[tag=wither_dechu,limit=1] run bossbar set minecraft:wither_dechu players test 
+execute as @e[tag=wither_dechu] at @s if entity @p[distance=..60] run bossbar set minecraft:wither_dechu players @e[type=player,distance=..60]
+execute as @e[tag=wither_dechu] at @s if entity @p[distance=60..] run bossbar set minecraft:wither_dechu visible false
+execute as @e[tag=wither_dechu] at @s if entity @p[distance=..60] run bossbar set minecraft:wither_dechu visible true
+
+
+
+
 
